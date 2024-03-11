@@ -1,6 +1,6 @@
 // get users page
-function getUsers(){
-
+function getUsers(req, res, next){
+   res.render("users")
 }
 
 module.exports = {

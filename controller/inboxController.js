@@ -1,6 +1,6 @@
 // get inbox page
-function getInbox(){
-
+function getInbox(req, res, next){
+  res.render("inbox")
 }
 
 module.exports = {
